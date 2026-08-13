@@ -10,7 +10,7 @@ root_agent = Agent(
     description='A helpful assistant for user questions.',
     instruction='Answer user questions to the best of your knowledge',
     tools=[
-        FunctionTool(get_dx_rate),
+        FunctionTool(get_fx_rate),
         AgentTool(agent=google_search_agent),
     ]
 )
