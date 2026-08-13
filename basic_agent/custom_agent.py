@@ -9,3 +9,4 @@ name='google_search_agent',
 description='A search agent that uses google search to get latest information...',
 instruction='Use google search to answer user questions about real-time info.',
 tools=[google_search],
+)
